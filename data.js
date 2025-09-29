@@ -1,5 +1,6 @@
 export const shows = [
   {
+    id: 1,
     title: "Heartstopper",
     image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
@@ -15,8 +16,8 @@ export const shows = [
           { episodeNumber: 1, title: "Meet", duration: "28 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4", image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=400&h=300&fit=crop" },
           { episodeNumber: 2, title: "Crush", duration: "30 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", image: "https://images.unsplash.com/photo-1509909756405-be0199881695?w=400&h=300&fit=crop" },
           { episodeNumber: 3, title: "Kiss", duration: "31 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4", image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop" },
-          { episodeNumber: 4, title: "Secret", duration: "29 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4", image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop" },
-          { episodeNumber: 5, title: "Friend", duration: "32 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop" },
+          { episodeNumber: 4, title: "Secret", duration: "29 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4", image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=300&fit=crop" },
+          { episodeNumber: 5, title: "Friend", duration: "32 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", image: "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=400&h=300&fit=crop" },
           { episodeNumber: 6, title: "Girls", duration: "28 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop" },
           { episodeNumber: 7, title: "Boyfriend", duration: "30 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4", image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop" },
           { episodeNumber: 8, title: "Boyfriend", duration: "33 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4", image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=300&fit=crop" }
@@ -27,7 +28,7 @@ export const shows = [
         episodes: [
           { episodeNumber: 1, title: "Out", duration: "30 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=400&h=300&fit=crop" },
           { episodeNumber: 2, title: "Family", duration: "29 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4", image: "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=400&h=300&fit=crop" },
-          { episodeNumber: 3, title: "Promise", duration: "31 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4", image: "https://images.unsplash.com/photo-1487333160315-2d20efb47bb6?w=400&h=300&fit=crop" },
+          { episodeNumber: 3, title: "Promise", duration: "31 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4", image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=300&fit=crop" },
           { episodeNumber: 4, title: "Challenge", duration: "28 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4", image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=400&h=300&fit=crop" },
           { episodeNumber: 5, title: "Heat", duration: "30 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4", image: "https://images.unsplash.com/photo-1549989476-69a92fa57c36?w=400&h=300&fit=crop" },
           { episodeNumber: 6, title: "Truth/Dare", duration: "32 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", image: "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=400&h=300&fit=crop" },
@@ -38,7 +39,7 @@ export const shows = [
       {
         seasonNumber: 3,
         episodes: [
-          { episodeNumber: 1, title: "Love", duration: "31 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", image: "https://images.unsplash.com/photo-1495854702749-a7b2c82854c1?w=400&h=300&fit=crop" },
+          { episodeNumber: 1, title: "Love", duration: "31 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop" },
           { episodeNumber: 2, title: "Home", duration: "30 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4", image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop" },
           { episodeNumber: 3, title: "Talk", duration: "29 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4", image: "https://images.unsplash.com/photo-1600298881974-6be191ceeda1?w=400&h=300&fit=crop" },
           { episodeNumber: 4, title: "Journey", duration: "33 min", video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4", image: "https://images.unsplash.com/photo-1586227740560-8cf2732c1531?w=400&h=300&fit=crop" },
@@ -51,8 +52,9 @@ export const shows = [
     ]
   },
   {
+    id: 2,
     title: "Money Heist",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1572553043272-f96aca511736?q=50",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
     rating: "U/A 16+",
     seasons: "5 Seasons",
@@ -87,6 +89,7 @@ export const shows = [
     ]
   },
   {
+    id: 3,
     title: "Stranger Things",
     image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
@@ -125,8 +128,9 @@ export const shows = [
     ]
   },
   {
+    id: 4,
     title: "The Crown",
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     rating: "U/A 13+",
     seasons: "6 Seasons",
@@ -161,8 +165,9 @@ export const shows = [
     ]
   },
   {
+    id: 5,
     title: "Breaking Bad",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
     rating: "U/A 18+",
     seasons: "5 Seasons",
@@ -198,6 +203,7 @@ export const shows = [
     ]
   },
   {
+    id: 6,
     title: "The Dark Knight",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
@@ -208,6 +214,7 @@ export const shows = [
     isShow: false
   },
   {
+    id: 7,
     title: "Inception",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
@@ -218,6 +225,7 @@ export const shows = [
     isShow: false
   },
   {
+    id: 8,
     title: "The Office",
     image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
@@ -253,6 +261,7 @@ export const shows = [
     ]
   },
   {
+    id: 9,
     title: "Friends",
     image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
@@ -302,6 +311,7 @@ export const shows = [
     ]
   },
   {
+    id: 10,
     title: "Game of Thrones",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
@@ -339,6 +349,7 @@ export const shows = [
     ]
   },
   {
+    id: 11,
     title: "Pulp Fiction",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
@@ -349,8 +360,9 @@ export const shows = [
     isShow: false
   },
   {
+    id: 12,
     title: "The Godfather",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     rating: "R",
     seasons: null,
@@ -359,6 +371,7 @@ export const shows = [
     isShow: false
   },
   {
+    id: 13,
     title: "Avatar: The Last Airbender",
     image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
@@ -409,8 +422,9 @@ export const shows = [
     ]
   },
   {
+    id: 14,
     title: "The Matrix",
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     rating: "R",
     seasons: null,
@@ -419,6 +433,7 @@ export const shows = [
     isShow: false
   },
   {
+    id: 15,
     title: "Sherlock",
     image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
@@ -447,6 +462,7 @@ export const shows = [
     ]
   },
   {
+    id: 16,
     title: "The Witcher",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
@@ -485,6 +501,7 @@ export const shows = [
     ]
   },
   {
+    id: 17,
     title: "Forrest Gump",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
@@ -495,8 +512,9 @@ export const shows = [
     isShow: false
   },
   {
+    id: 18,
     title: "Westworld",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     rating: "TV-MA",
     seasons: "4 Seasons",
@@ -532,8 +550,9 @@ export const shows = [
     ]
   },
   {
+    id: 19,
     title: "The Shawshank Redemption",
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
     rating: "R",
     seasons: null,
@@ -542,6 +561,7 @@ export const shows = [
     isShow: false
   },
   {
+    id: 20,
     title: "Black Mirror",
     image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
@@ -582,6 +602,7 @@ export const shows = [
     ]
   },
   {
+    id: 21,
     title: "The Mandalorian",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
@@ -619,6 +640,7 @@ export const shows = [
     ]
   },
   {
+    id: 22,
     title: "Interstellar",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
@@ -629,8 +651,9 @@ export const shows = [
     isShow: false
   },
   {
+    id: 23,
     title: "House of Cards",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
     rating: "TV-MA",
     seasons: "6 Seasons",
@@ -666,8 +689,9 @@ export const shows = [
     ]
   },
   {
+    id: 24,
     title: "The Wolf of Wall Street",
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     rating: "R",
     seasons: null,
@@ -676,6 +700,7 @@ export const shows = [
     isShow: false
   },
   {
+    id: 25,
     title: "The Boys",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
@@ -714,8 +739,9 @@ export const shows = [
     ]
   },
   {
+    id: 26,
     title: "Goodfellas",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
     rating: "R",
     seasons: null,
@@ -724,6 +750,7 @@ export const shows = [
     isShow: false
   },
   {
+    id: 27,
     title: "Better Call Saul",
     image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
@@ -774,6 +801,7 @@ export const shows = [
     ]
   },
   {
+    id: 28,
     title: "Casablanca",
     image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
@@ -784,8 +812,9 @@ export const shows = [
     isShow: false
   },
   {
+    id: 29,
     title: "Peaky Blinders",
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
     rating: "TV-MA",
     seasons: "6 Seasons",
@@ -818,8 +847,9 @@ export const shows = [
     ]
   },
   {
+    id: 30,
     title: "Narcos",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
     rating: "TV-MA",
     seasons: "3 Seasons",
@@ -855,6 +885,7 @@ export const shows = [
     ]
   },
   {
+    id: 31,
     title: "True Detective",
     image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
@@ -893,8 +924,9 @@ export const shows = [
     ]
   },
   {
+    id: 32,
     title: "The Sopranos",
-    image: "https://images.unsplash.com/photo-1489599142406-ba4bb7abaa98?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     rating: "TV-MA",
     seasons: "6 Seasons",
@@ -930,8 +962,9 @@ export const shows = [
     ]
   },
   {
+    id: 33,
     title: "Fargo",
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1542204165-65bf26472b9b?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
     rating: "TV-MA",
     seasons: "5 Seasons",
@@ -967,6 +1000,7 @@ export const shows = [
     ]
   },
   {
+    id: 34,
     title: "The Wire",
     image: "https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
@@ -1004,6 +1038,7 @@ export const shows = [
     ]
   },
   {
+    id: 35,
     title: "Mad Men",
     image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=400&h=300&fit=crop",
     video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",

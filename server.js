@@ -16,12 +16,13 @@ app.use((req, res, next) => {
 
 // Root endpoint
 app.get('/', (req, res) => {
-  res.json({ 
+  res.json({
     message: 'Shows API',
     version: '1.0.0',
     endpoints: {
       shows: '/api/shows',
       show_by_index: '/api/shows/:index',
+      show_by_id: '/api/show/:id',
       health: '/health'
     }
   });
@@ -36,6 +37,16 @@ app.get('/api/shows/:index', (req, res) => {
   const index = parseInt(req.params.index);
   if (index >= 0 && index < shows.length) {
     res.json({ success: true, data: shows[index] });
+  } else {
+    res.status(404).json({ success: false, message: 'Show not found' });
+  }
+});
+
+app.get('/api/show/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const show = shows.find(s => s.id === id);
+  if (show) {
+    res.json({ success: true, data: show });
   } else {
     res.status(404).json({ success: false, message: 'Show not found' });
   }
